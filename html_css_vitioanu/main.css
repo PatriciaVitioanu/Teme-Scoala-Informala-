@@ -1,0 +1,148 @@
+:root {
+  --text: hsl(228, 12%, 48%);
+  --pale: hsl(32, 37%, 92%);
+  --green: hsl(158, 36%, 37%);
+}
+
+* {
+  margin: 0;
+}
+
+#header-img {
+  width: 90px;
+  object-fit: contain;
+}
+
+#nav-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: white;
+  padding: 10px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--text);
+  padding: 0 30px;
+}
+
+@media (min-width: 650px) {
+  nav{
+    margin: 0;
+  }
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.product-name {
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+body {
+  background-color: var(--pale);
+}
+
+#email-section {
+  margin-top: 150px;
+  text-align: center;
+}
+
+section::before {
+  display: block;
+}
+
+section {
+  margin: 40px 20px;
+}
+
+h2 {
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#submit {
+  background-color: var(--green);
+  font-weight: 800;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  cursor: pointer;
+}
+
+.feature1 {
+  align-items: center;
+}
+
+#features {
+  text-align: left;
+  max-width: 800px;
+  margin: auto;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.feature h2 {
+  margin: 0px 20px 0px 20px;
+}
+
+#video {
+  width: 100%;
+}
+
+#for_sale h2 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.product-image {
+  width: 100%;
+  margin: auto;
+  height: 500px;
+  border: 1px solid;
+  border-radius: 10px 10px 0 0;
+  background-size: cover;
+}
+
+.product1 {
+  background-image: url(https://www.glosters.co.uk/cdn/shop/products/image_0c1361bb-b8ad-4fda-a73b-e9efebd6bfff_800x.jpg?v=1698415923);
+  width: 100%;
+  height: 750px;
+}
+
+.inner-card {
+  display: flex;
+}
+
+#for_sale h1{
+text-align: center;
+font-size: 25px;
+}
+
+.paragraph {
+  text-align: center;
+}
+
+.flex{
+  text-align: center;
+  font-size: 25px;
+}
+
